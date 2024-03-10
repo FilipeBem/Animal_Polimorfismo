@@ -7,6 +7,7 @@ public class Cachorro  extends  Mamiferos{
     @Override
     public void emitirson() {
         System.out.println("Latido");
+        
     }
 
 }
