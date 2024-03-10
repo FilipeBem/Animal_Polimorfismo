@@ -11,6 +11,7 @@ public class Main {
         Aves a = new Aves();
         Anfibios an = new Anfibios();
         Canguru c = new Canguru();
+        Cachorro ca = new Cachorro();
 
         m.setCorPelo("Preto");
         m.setIdade(10);
@@ -27,7 +28,9 @@ public class Main {
 
         an.setCorPele("amarelo");
 
-        c.alimentar();
+        m.locomover();
+        c.locomover();
+        ca.emitirson();
 
     }
 }
